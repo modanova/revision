@@ -77,16 +77,16 @@
 - [x] When might the <template> element be useful? - to copy a ready made, often complicated, and styled element quickly into another element
 - [x] What are the different ways to add event handlers to elements? - as properties in the HTML directly or by storing elements into variables and adding event listeners to them
 - [x] Why is addEventListener the safest way to add an event handler? - HTML code might get deleted
-- [x] How can you access submitted form values in your JS? -
+- [x] - [x] How can you access submitted form values in your JS? - attaching a JS onto the form and usign a callbackfunction that receives the form's input as argument, preventDefault and element.target etc.
 
 ## Testing
 
-Why are tests useful?
-What is the difference between unit and integration tests?
-What kind of code is easier to test?
-Why should your tests be isolated from each other?
-What is Test Driven Development (TDD)?
-When might TDD be a useful process to follow?
+- [x] Why are tests useful? - To discover if dependencies work and the desired responses are received, information is communicated between function as expected. Also to test all edge cases
+- [x] What is the difference between unit and integration tests? - unit tests only work on one function where as integration tests check if a group of functions correspond together as desired
+- [x] What kind of code is easier to test? - one function not depending on other function's returned values
+- [x] Why should your tests be isolated from each other? - so we achieve a clean and complete test that checks if the functions work seamlessly from all perspectives
+- [x] What is Test Driven Development (TDD)? - Writing code simultaniously with writing a test for the given code, it facilitates writing working functions by breaking the functions down into a step by step process
+- [x] When might TDD be a useful process to follow? -
 
 ## Debugging
 
