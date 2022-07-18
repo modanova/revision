@@ -72,16 +72,12 @@
 - [x] How would you get a reference to a DOM element in your JS? - by storing the element into an object variable, using document. and selecting the relevant tag, class, id, etc. then addind an event listener to it
 - [x] How would you get references to multiple DOM elements at once in your JS? - querySelectorAll to select all elements of the given tag or class in an array
 - [x] How would you update properties of a DOM element? - by selecting it with JS and storing it into an object, then refering to it's properties as any object's keys e.g. element.value = 0;
-- [x] What’s the difference between a “property” and an “attribute”?
-- [x] What are some different ways to add content inside a DOM element?
-- [x] When might the
-      <template>
-      element be useful?
-- [x] What are the different ways to add event handlers to elements?
-- [x] Why is
-      addEventListener
-      the safest way to add an event handler?
-- [x] How can you access submitted form values in your JS?
+- [x] What’s the difference between a “property” and an “attribute”? - Didn't know this, found the answer: "An attribute is the initial state when rendered in the DOM. A property is the current state". To research!
+- [x] What are some different ways to add content inside a DOM element? - createElement(), append(), cloneNode()
+- [x] When might the <template> element be useful? - to copy a ready made, often complicated, and styled element quickly into another element
+- [x] What are the different ways to add event handlers to elements? - as properties in the HTML directly or by storing elements into variables and adding event listeners to them
+- [x] Why is addEventListener the safest way to add an event handler? - HTML code might get deleted
+- [x] How can you access submitted form values in your JS? -
 
 ## Testing
 
