@@ -90,6 +90,6 @@
 
 ## Debugging
 
-What process would you take to find out why your code isn’t working?
-What tools do JS/dev tools have to help debug your code?
-At what point should you ask for someone else’s help?
+- [x] What process would you take to find out why your code isn’t working? - go through the code line by line, console.log specific lines, values, element's etc., write tests!
+- [x] What tools do JS/dev tools have to help debug your code? - simulating a user e.g. methods such as .click(), console.log(), notification of errors in the console with error description and line that causes it
+- [x] At what point should you ask for someone else’s help? - when I've tried everything I can think of and cannot find the problem. When going back in the history of creating the problem doesn't work and research doesn't give any reasonable answers.
